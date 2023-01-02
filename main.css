@@ -8,15 +8,15 @@ main,
 footer {
     display: inline-block;
     background-color: yellow;
-     width: 800px;
-     margin-left: calc(50% - 400px);
+     width: 1000px;
+     margin-left: calc(50% - 500px);
      margin-bottom: 30px;
 }
 header {
     margin-top: 50px;
 }
 
-img {
+header > img {
     width: 100px;
     height: 40px;
     float: left;
@@ -29,7 +29,7 @@ nav {
     float: right;
 
 }
-a {
+nav > a {
     display: inline-block;
     margin: 0;
     margin-left: 2em;
@@ -38,12 +38,45 @@ a {
     text-decoration: none;
     color: #000;
 }
-a:first-child {
+nav > a:first-child {
     
     margin-left: 0;
 }
-a:hover {
+nav > a:hover {
     color: red;
     text-decoration: underline;
 
+}
+main {
+
+}
+div {
+    width: 40%;
+    float: left;
+
+}
+h1 {
+    font-size: 50px;
+    color: #222222;
+    font-weight: normal;
+}
+h1 > span {
+    font-weight: bold;
+    display: block;
+}
+p {
+    font-size: 15px;
+
+}
+div > a {
+    background-color: red;
+
+}
+div > a:last-child {
+    background-color: aqua;
+
+}
+main > img {
+    width: 55%;
+    float: right;
 }
