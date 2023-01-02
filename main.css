@@ -7,7 +7,6 @@ header,
 main,
 footer {
     display: inline-block;
-    background-color: yellow;
      width: 1000px;
      margin-left: calc(50% - 500px);
      margin-bottom: 30px;
@@ -69,12 +68,29 @@ p {
 
 }
 div > a {
-    background-color: red;
+    float: left;
+    display: inline-block;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: #662C8C;
+    color: white;
+    padding: 0.9em;
+    padding-left: 2em;
+    padding-right: 2em;
+    font-size: 16px;
+    line-height: 1.3em;
+    border-radius: 1.7em;
+    margin-right: 1em;
+    margin-bottom: 1em;
+    border: 0.15em solid #662C8C;
 
 }
 div > a:last-child {
-    background-color: aqua;
-
+    background-color: white;
+    color: #662C8C;
+}
+div > a:hover {
+    box-shadow: 0 5px 10px #00000088;
 }
 main > img {
     width: 55%;
