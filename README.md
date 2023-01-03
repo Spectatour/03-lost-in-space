@@ -14,7 +14,7 @@ _website design project_
 
 This project is for educational porpuses only. Pull request are welcome, but priority for project authors! Thank you for your cooperation!
 
-Site published at: https://front-end-by-rimantas.github.io/41-grupe-coming-soon/
+Site published at: https://spectatour.github.io/03-lost-in-space/
 
 Design: [Coming soon](https://cdn.dribbble.com/users/1355613/screenshots/5964475/space.gif)
 

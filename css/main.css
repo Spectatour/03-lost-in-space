@@ -3,32 +3,28 @@ body {
     margin: 0;
 
 }
-header,
-main,
-footer {
+.container {
     display: inline-block;
      width: 1000px;
      margin-left: calc(50% - 500px);
      margin-bottom: 30px;
 }
-header {
+.container:first-child {
     margin-top: 50px;
 }
-
-header > img {
+.logo {
     width: 100px;
     height: 40px;
     float: left;
     object-fit: contain;
     object-position: left;
-
 }
-nav {
+.main-menu {
     margin: 10px;
     float: right;
 
 }
-nav > a {
+.main-menu > .link {
     display: inline-block;
     margin: 0;
     margin-left: 2em;
@@ -37,37 +33,33 @@ nav > a {
     text-decoration: none;
     color: #000;
 }
-nav > a:first-child {
+.main-menu > a:first-child {
     
     margin-left: 0;
 }
-nav > a:hover {
+.main-menu > a:hover {
     color: red;
     text-decoration: underline;
-
 }
-main {
-
-}
-div {
+.left-collumn {
     width: 40%;
     float: left;
 
 }
-h1 {
+.main-title {
     font-size: 50px;
     color: #222222;
     font-weight: normal;
 }
-h1 > span {
+.main-title > span {
     font-weight: bold;
     display: block;
 }
-p {
+.description {
     font-size: 15px;
 
 }
-div > a {
+.button {
     float: left;
     display: inline-block;
     text-transform: uppercase;
@@ -85,14 +77,45 @@ div > a {
     border: 0.15em solid #662C8C;
 
 }
-div > a:last-child {
+.button:last-child {
     background-color: white;
     color: #662C8C;
 }
-div > a:hover {
+.button:hover {
     box-shadow: 0 5px 10px #00000088;
 }
-main > img {
+.right-column {
     width: 55%;
+    float: right;
+}
+.right-column > img {
+    width: 100%;
+}
+.right-column > .img-grey,
+.right-column:hover > .img-color {
+    display: block;
+}
+.right-column > .img-color,
+.right-column:hover > .img-grey {
+    display: none;
+}
+.socials {
+    float: left;
+}
+.socials > .icon {
+    font-size: 20px;
+    color: #777;
+    text-decoration: none;
+    line-height: 1em;
+    margin-right: 1em;
+}
+.socials > .icon:last-child {
+    margin-right: 0;
+}
+.socials > a:hover {
+    color: #662C8C;
+}
+.copyright {
+    margin: 0;
     float: right;
 }
