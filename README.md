@@ -16,7 +16,7 @@ This project is for educational porpuses only. Pull request are welcome, but pri
 
 Site published at: https://spectatour.github.io/03-lost-in-space/
 
-Design: [Coming soon](https://cdn.dribbble.com/users/1355613/screenshots/5964475/space.gif)
+Design: [Astronautas](https://cdn.dribbble.com/users/1355613/screenshots/5964475/space.gif)
 
 ## 🎯 Project features/goals
 
